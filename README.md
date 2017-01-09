@@ -17,7 +17,7 @@ Add it in your build.gradle at the end of repositories:
 Add depencies :
 
     dependencies {
-        compile 'com.github.iksandecade:RootChecker:1.0.0.0'
+        compile 'com.github.iksandecade:Root-Checker:1.0.0'
     }
 
 # How To Use
@@ -33,7 +33,7 @@ To use this library is very simple. Just add this code in your class to know you
 Very simple right?
 
 # Version
-this libray version is 1.0.0.0
+this libray version is 1.0.0
 I will update this library sometimes
 
 # Licence
