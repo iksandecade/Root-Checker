@@ -17,7 +17,7 @@ Add it in your build.gradle at the end of repositories:
 Add depencies :
 
     dependencies {
-        compile 'com.github.iksandecade:Root-Checker:1.0.0'
+        compile 'com.github.iksandecade:Root-Checker:1.0.1'
     }
 
 # How To Use
@@ -30,10 +30,22 @@ To use this library is very simple. Just add this code in your class to know you
         // your device not rooted
     }
 
-Very simple right?
+or you can simply bring up the dialog like this
+
+![](https://s30.postimg.org/h3ypaqls1/Screenshot_2017_01_10_10_49_28.png)
+
+To show the dialog just add this code
+
+    //in Activity class
+    RootChecker.checkRoot(this);
+
+    //in Fragment class
+    RootChecker.checkRoot(getActivity);
+
+Very simple na?
 
 # Version
-this libray version is 1.0.0
+this library version is 1.0.1
 I will update this library sometimes
 
 # Licence
